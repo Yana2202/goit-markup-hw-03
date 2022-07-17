@@ -18,33 +18,37 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
-      <nav class="header-nav">
-        <a href="./index.html" class="header-logo"
-          >Web<span class="dark-logo">Studio</span></a
-        >
-        <ul class="header-list">
-          <li class="header-item">
-            <a href="./index.html" class="header-link">Студия</a>
+    <header class="header container">
+      <div class="container page-header-container">
+        <nav class="header-nav">
+          <a href="./index.html" class="header-logo"
+            >Web<span class="dark-logo">Studio</span></a
+          >
+          <ul class="header-list">
+            <li class="header-item">
+              <a href="./index.html" class="header-link current">Студия</a>
+            </li>
+            <li class="header-item">
+              <a href="./portfolio.html" class="header-link">Портфолио</a>
+            </li>
+            <li class="header-item">
+              <a href="./index.html" class="header-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contact-list">
+          <li class="contact-link">
+            <a href="mailto:info@devstudio.com" class="contact-link"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="header-item">
-            <a href="./portfolio.html" class="header-link current">Портфолио</a>
-          </li>
-          <li class="header-item">
-            <a href="./index.html" class="header-link">Контакты</a>
+          <li class="contact-link">
+            <a href="tel:+380961111111" class="contact-link"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
-      </nav>
-      <ul class="contact-list">
-        <li class="contact-link">
-          <a href="mailto:info@devstudio.com" class="contact-link"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="contact-link">
-          <a href="tel:+380961111111" class="contact-link"> 096 111 11 11 </a>
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <h1 class="visually-hidden">Портфолио</h1>
@@ -168,30 +172,34 @@
       </ul>
     </main>
     <footer class="footer">
-      <a href="./index.html" class="footer-logo footer-theme-dark"
-        >Web<span class="light-logo">Studio</span></a
-      >
-      <address class="address">
-        <ul class="footer-list">
-          <li class="footer-item">
-            <a
-              href="https://goo.gl/maps/wUQXQDukjgNMTirY6"
-              target="_blank"
-              rel="noopener norefferer"
-              class="footer-address"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li class="footer-item">
-            <a href="" class="footer-link">info@example.com</a>
-          </li>
-          <li class="footer-item">
-            <a href="tel:+380991111111" class="footer-link"
-              >+38 099 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <a href="./index.html" class="footer-logo footer-theme-dark"
+          >Web<span class="light-logo">Studio</span></a
+        >
+        <address class="address">
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a
+                href="https://goo.gl/maps/wUQXQDukjgNMTirY6"
+                target="_blank"
+                rel="noopener norefferer"
+                class="footer-address"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="footer-item">
+              <a href="mailto:info@devstudio.com" class="footer-link"
+                >info@example.com</a
+              >
+            </li>
+            <li class="footer-item">
+              <a href="tel:+380991111111" class="footer-link"
+                >+38 099 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
