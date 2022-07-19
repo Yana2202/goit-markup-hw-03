@@ -65,6 +65,7 @@ body {
 }
 .page-header-container {
   display: flex;
+  align-items: center;
 }
 .header-nav {
   display: flex;
@@ -96,6 +97,7 @@ body {
 }
 .header-link {
   font-family: var(--primary-font);
+  padding: 32px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -110,8 +112,10 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  margin-right: 40px;
   color: var(--primary-text-color);
+}
+.contact-item:not(:last-child) {
+  margin-right: 50px;
 }
 .header-link:hover,
 .header-link:focus {
@@ -281,12 +285,10 @@ body {
 }
 /* ====================/TEAM==================== */
 /* =============PORTFOLIO======================= */
-.button-container {
-  padding-top: 94px;
-}
 .button-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .button-item:not(:last-child) {
   margin-right: 8px;
@@ -319,8 +321,6 @@ button.current {
   background: #2196f3;
 }
 .work-list {
-  padding-top: 50px;
-  padding-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -335,9 +335,9 @@ button.current {
   color: var(--tertiary-font);
 }
 .work-item-content-wrapper {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 24px;
   border: 1px solid #eeeeee;
+  border-top: 0;
 }
 .work-text {
   font-family: "Roboto";
@@ -347,6 +347,10 @@ button.current {
   /* identical to box height, or 188% */
 
   letter-spacing: 0.03em;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 /* ================/PORTFOLIO================== */
 /* ==================FOOTER==================== */
