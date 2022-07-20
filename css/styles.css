@@ -97,7 +97,7 @@ body {
 }
 .header-link {
   font-family: var(--primary-font);
-  padding: 32px;
+  padding: 32px 0;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -134,8 +134,8 @@ body {
 /* ==============HERO==================== */
 .hero {
   background: var(--secondary-bg-color);
-  min-width: 1600px;
-  padding-top: 80px;
+  max-width: 1600px;
+  padding-top: 200px;
   padding-bottom: 200px;
 }
 .hero-title {
@@ -232,10 +232,15 @@ body {
 /* ====================/ACTIVITY============== */
 /* =======================TEAM================ */
 .team {
-  min-width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
+}
+.team-item {
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-title {
   margin-bottom: 50px;
@@ -256,7 +261,6 @@ body {
 .team-list-content-wrapper {
   padding-bottom: 30px;
   padding-top: 30px;
-  border: 1px solid #cccccc;
 }
 .team-name {
   font-family: var(--primary-font);
@@ -333,6 +337,7 @@ button.current {
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
   color: var(--tertiary-font);
+  border-bottom: 4px;
 }
 .work-item-content-wrapper {
   padding: 20px 24px;
